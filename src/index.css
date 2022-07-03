@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeContainer {
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgb(25, 24, 24);
+    min-height: 300px;
+}
+
+/* similar classes..styles */
+
+.inputStyle {
+    @apply mb-3 w-full p-2 rounded-lg outline-none
+}
+
+.btnStyle {
+    @apply ring-1 ring-white text-white px-10 py-1 mt-3 rounded-lg
+}
+
+.singinAndLoginWrapper {
+    @apply rounded-lg shadow-md p-3 flex flex-col justify-center items-center
+}
+
+@media(max-width:800px) {
+    .homeContainer {
+        width: 80%;
+    }
+}
+
+@media(max-width:450px) {
+    .homeContainer {
+        width: 90%;
+    }
+}
+
+@media(max-width:380px) {
+    .homeContainer {
+        width: 95%;
+    }
+}
