@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-    //  add  your api key don't use mine because it's just for demo
+    //  add  your api key
     
     
 };
